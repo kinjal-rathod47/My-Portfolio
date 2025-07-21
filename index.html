@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kinjal's Portfolio</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      color: #00ffe7;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00ffe7;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .home {
+      text-align: center;
+    }
+
+    .home h2 {
+      font-size: 2.5rem;
+      color: #00ffe7;
+    }
+
+    .about, .skills, .projects, .contact {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      margin-top: 20px;
+      padding: 30px;
+    }
+
+    h3 {
+      color: #00ffe7;
+      margin-bottom: 10px;
+    }
+
+    .skills ul, .projects ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .skills li, .projects li {
+      padding: 5px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      .home h2 {
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kinjal Rathod</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <h2>Hello, I'm Kinjal 👩‍💻</h2>
+    <p>I'm a Web Developer and MCa IT student passionate about building responsive websites.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h3>About Me</h3>
+    <p>I’m a fresher learning full-stack development. I love turning ideas into real-world digital experiences. Currently exploring JavaScript and backend basics.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h3>Skills</h3>
+    <ul>
+  <li>✅ HTML5, CSS3, Flexbox, Grid</li>
+  <li>✅ JavaScript (DOM, Events, ES6)</li>
+  <li>🔄 Currently Learning: React.js & MySQL</li>
+  <li>🌐 Git, GitHub, Netlify (for deployment)</li>
+  <li>🧠 Soft Skills: Creativity, Teamwork, Self-Learning</li>
+</ul>
+
+  </section>
+
+  <!-- <section id="projects" class="projects">
+    <h3>Projects</h3>
+    <ul>
+      <li>🌐 Portfolio Website (This one!)</li>
+      <li>📝 To-Do List using JavaScript</li>
+      <li>📱 Responsive Landing Page</li>
+    </ul>
+  </section> -->
+
+  <section id="contact" class="contact">
+    <h3>Contact Me</h3>
+    <p>Email: rathodkinjal417@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/kinjal-rathod47" target="_blank" style="color:#00ffe7;">@Kinjal Rathod</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kinjal Rathod | Made with 💖</p>
+  </footer>
+
+</body>
+</html>
